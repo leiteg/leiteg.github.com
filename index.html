@@ -1,262 +1,243 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+
     <meta charset="utf-8">
     <title>Gustavo Leite</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   </head>
 
   <body class="bg-light">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Gustavo Leite</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand text-uppercase" href="#">Gustavo Leite</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#profile">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#affiliations">Affiliations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projets">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#publications">Publications</a>
-          </li>
-        </ul>
-      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	<div class="navbar-nav">
+	  <a class="nav-item nav-link" href="#">Home</a>
+	  <a class="nav-item nav-link" href="#affiliations">Affiliations</a>
+	  <a class="nav-item nav-link" href="#publications">Publications</a>
+	  <a class="nav-item nav-link" href="#projects">Projects</a>
+	</div>
     </nav>
 
-    <!-- Container -->
-    <div class="container">
+    <div class="jumbotron">
+      <div class="container">
+	<div class="row my-5 justify-content-center">
+	  <div class="col-md-4">
+	    <figure class="figure">
+	      <img src="assets/img/profile.jpg" alt="Profile Image" class="img-thumbnail">
+	    </figure>
+	  </div>
+	  <div class="col-md-8">
+	    <h1 class="display-4">Gustavo Leite</h1>
+	    <h6 class="text-muted">Computer Science Graduate Student</h6>
+	    <p class="lead text-justify">
+	      Gustavo Leite is a graduate student in Computer Science at
+	      Universidade Estadual Paulista (UNESP) located in Rio Claro, Brazil.
+	      Leite graduated at the same institution in 2016. His research
+	      interests are computer architecture, high performance computing,
+	      operating systems and compilers.
+	    </p>
+	    <hr>
+	    <p>
+	      <a target="_blank" class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/citations?user=F6MZj_oAAAAJ"><i class="fab fa-google"></i> Google Scholar</a>
+	      <a target="_blank" class="btn btn-sm btn-outline-primary" href="https://github.com/leiteg"><i class="fab fa-github"></i> Github</a>
+	      <a target="_blank" class="btn btn-sm btn-outline-primary" href="https://gitlab.com/leiteg"><i class="fab fa-gitlab"></i> Gitlab</a>
+	      <a target="_blank" class="btn btn-sm btn-outline-primary" href="https://bitbucket.com/leiteg"><i class="fab fa-bitbucket"></i> Bitbucket</a>
+	    </p>
+	  </div>
+	</div>
+      </div>
+    </div>
 
-      <!-- Profile -->
-      <div class="row my-5" id="profile">
-        <div class="col-3 offset-1">
+    <main role="main" class="container">
+
+      <!-- Bio -->
+      <!--
+      <div class="row my-5 justify-content-center">
+	<div class="col-md-3">
           <figure class="figure">
             <img src="assets/img/profile.jpg" alt="Profile Image" class="img-thumbnail">
           </figure>
-        </div>
-        <div class="col-7 flexbox">
-          <h2 class="font-weight-bold">Gustavo Leite </h2>
-          <h6 class="text-muted">Computer Science Graduate Student</h6>
-          <p class="lead">
-          Gustavo Leite is a graduate student in Computer Science at
-          Universidade Estadual Paulista (UNESP) located in Rio Claro, Brazil.
-          Leite graduated at the same institution in 2016. His research
-          interests are computer architecture, high performance computing,
-          operating systems and compilers.
-          </p>
-          <p>
-            <!-- <a class="btn btn-outline-success btn-sm badge-pill disabled" target="_blank" href="#">Lattes</a> -->
-            <a class="btn btn-outline-success btn-sm badge-pill" target="_blank" href="https://scholar.google.com/citations?&user=F6MZj_oAAAAJ">Google Scholar</a>
-            <a class="btn btn-outline-success btn-sm badge-pill" target="_blank" href="http://github.com/leiteg">Github</a>
-            <a class="btn btn-outline-success btn-sm badge-pill" target="_blank" href="http://gitlab.com/leiteg">Gitlab</a>
-            <a class="btn btn-outline-success btn-sm badge-pill" target="_blank" href="http://bitbucket.org/leiteg">Bitbucket</a>
-          </p>
-        </div>
+	</div>
+	<div class="col-md-9">
+	  <h1 class="display-4">Gustavo Leite</h1>
+	  <h6 class="text-muted">Computer Science Graduate Student</h6>
+	  <p class="lead text-justify">
+	    Gustavo Leite is a graduate student in Computer Science at
+	    Universidade Estadual Paulista (UNESP) located in Rio Claro, Brazil.
+	    Leite graduated at the same institution in 2016. His research
+	    interests are computer architecture, high performance computing,
+	    operating systems and compilers.
+	  </p>
+	  <p class="text-right">
+	    <a class="btn btn-outline-primary btn-sm badge-pill" href="">Google Scholar</a>
+	    <a class="btn btn-outline-primary btn-sm badge-pill" href="">Github</a>
+	    <a class="btn btn-outline-primary btn-sm badge-pill" href="">Gitlab</a>
+	    <a class="btn btn-outline-primary btn-sm badge-pill" href="">Bitbucket</a>
+	  </p>
+	</div>
+      </div>
+      -->
+
+      <!-- <hr> -->
+
+      <div class="row my-5" id="Skills">
+        <h2 class="col-md-3">Skills</h2>
+        <div class="col-md-9 p-4 bg-white rounded shadow-sm">
+	  <h5>Programming Expertise</h5>
+	  <div class="progress font-weight-bold my-3" style="height: 25px">
+	    <div class="progress-bar bg-success" role="progressbar" style="width: 40%">C</div>
+	    <div class="progress-bar bg-warning" role="progressbar" style="width: 30%">Python</div>
+	    <div class="progress-bar bg-info" role="progressbar" style="width: 20%">C++</div>
+	    <div class="progress-bar bg-danger" role="progressbar" style="width: 10%">Java</div>
+	  </div>
+	  <h5>Communication</h5>
+	  <div class="progress font-weight-bold my-3" style="height: 25px">
+	    <div class="progress-bar bg-success" role="progressbar" style="width: 50%">Portuguese</div>
+	    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%">English</div>
+	    <div class="progress-bar bg-danger" role="progressbar" style="width: 10%">German</div>
+	  </div>
+	  <h5>Interests</h5>
+	  <ul>
+	    <li>Compilers</li>
+	    <li>Computer Architecture</li>
+	    <li>High Performance Computing</li>
+	    <li>Operating Systems</li>
+	  </ul>
+	</div>
       </div>
 
-      <!-- Affiliations -->
-      <div class="row my-5">
-        <div class="rounded bg-white shadow-sm col-10 offset-1">
-          <h3 class="my-3">Affiliations</h3>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2013-2016</span>
-                  <span class="badge badge-warning">Best Student Award</span>
-                  <span class="badge badge-light">Bachelor: Computer Science</span>
-                  <br>
-                  <a href="http://rc.unesp.br/" target="_blank" class="text-reset">
-                    Universidade Estadual Paulista "Júlio de Mesquisa Filho" (UNESP)
-                  </a>
-                  <br>
-                  <small class="text-muted">
-                    <a href="https://goo.gl/maps/Ln5wpoGKW452" target="_blank" class="text-reset">Rio Claro, SP, Brazil</a>
-		    | Supervisor: Frank Affonso (early); Alexandro Baldassin
-                  </small>
-                </td>
-                <td>Undergraduate Student</td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2017-present</span>
-                  <span class="badge badge-light">Master: Computer Science</span>
-                  <br>
-                  <a href="http://rc.unesp.br/" target="_blank" class="text-reset">
-                    Universidade Estadual Paulista "Júlio de Mesquisa Filho" (UNESP)
-                  </a>
-                  <br>
-                  <small class="text-muted">
-                    <a href="https://goo.gl/maps/Ln5wpoGKW452" target="_blank" class="text-reset">Rio Claro, SP, Brazil</a> |
-                    Supervisor: Alexandro Baldassin
-                  </small>
-                </td>
-                <td>
-                  Graduate Student
-                  <br>
-                  Teacher Assistant
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2018</span>
-                  <span class="badge badge-light">Research: Compilers</span>
-                  <br>
-                  <a href="http://ualberta.ca/" target="_blank" class="text-reset">
-                    University of Alberta
-                  </a>
-                  <br>
-                  <small class="text-muted">
-                    <a href="https://goo.gl/maps/oamFQdysf5p" target="_blank" class="text-reset">Edmonton, AB, Canada</a> |
-                    Supervisor: José Nelson Amaral
-                  </small>
-                </td>
-                <td>Academic Visitor</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="row my-5" id="affiliations">
+        <h2 class="col-md-3">Affiliations</h2>
+        <div class="col-md-9 p-4 bg-white rounded shadow-sm">
+	  <ul class="list-unstyled m-0">
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2013-2016</span>
+	        <span class="badge badge-secondary">Bachelor</span>
+	        <span class="badge badge-warning" data-toggle="tooltip" data-placement="top" title="Best Academic Performance Award">Award</span>
+	      </p>
+	      <p class="m-0">
+		<a class="text-reset text-decoration-none" href="https://rc.unesp.br" target="_blank">
+		  Universidade Estadual Paulista "Júlio de Mesquita Filho" (Unesp)
+		</a>
+		<p class="m-0 text-muted">
+		  <a class="text-reset text-decoration-none" href="https://goo.gl/maps/Ln5wpoGKW452" target="_blank">
+		    Rio Claro, SP, Brazil
+		  </a>
+		  | Supervisors: Frank Affonso (early); Alexandro Baldassin
+		</p>
+	      </p>
+	    </li>
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2017-present</span>
+	        <span class="badge badge-secondary">Master</span>
+	      </p>
+	      <p class="m-0">
+		<a class="text-reset text-decoration-none" href="https://rc.unesp.br" target="_blank">
+		  Universidade Estadual Paulista "Júlio de Mesquita Filho" (Unesp)
+		</a>
+		<p class="m-0 text-muted">
+		  <a class="text-reset text-decoration-none" href="https://goo.gl/maps/Ln5wpoGKW452" target="_blank">
+		    Rio Claro, SP, Brazil
+		  </a>
+		  | Supervisor: Alexandro Baldassin
+		</p>
+	      </p>
+	    </li>
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2018</span>
+	        <span class="badge badge-secondary">Research</span>
+	      </p>
+	      <p class="m-0">
+		<a class="text-reset text-decoration-none" href="https://ualberta.ca" target="_blank">
+		  University of Alberta (UofA)
+		</a>
+		<p class="m-0 text-muted">
+		  <a class="text-reset text-decoration-none" href="https://goo.gl/maps/oamFQdysf5p" target="_blank">
+		    Edmonton, AB, Canada
+		  </a>
+		  | Supervisor: José Nelson Amaral
+		</p>
+	      </p>
+	    </li>
+	  </ul>
+	</div>
       </div>
 
-      <!-- Cards -->
-      <div class="row card-group my-5">
-
-        <div class="card">
-          <div class="card-img-top container-canvas">
-            <canvas id="canvas-github"></canvas>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title font-weight-bold">Github</h4>
-            <p class="card-text">Check out my Github, this is where I host most of my projects.</p>
-          </div>
-          <div class="card-footer text-center">
-            <a target="_blank" href="https://github.com/leiteg" class="btn btn-sm btn-link">Click here!</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img-top container-canvas">
-            <canvas id="canvas-medium"></canvas>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title font-weight-bold">Medium</h4>
-            <p class="card-text">I use Medium to write some blog posts on a variety of topics, scientific or not!</p>
-          </div>
-          <div class="card-footer text-center">
-            <a target="_blank" href="#" class="btn btn-sm btn-link">Click here!</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-img-top container-canvas">
-            <canvas id="canvas-atomic"></canvas>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title font-weight-bold">GPP</h4>
-            <p class="card-text">GPP is the reasearch group which I am part of, click the link below and visit our group's page.</p>
-          </div>
-          <div class="card-footer text-center">
-            <a target="_blank" href="http://atomic.rc.unesp.br" class="btn btn-sm btn-link">Click here!</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Publications -->
-      <div class="row my-5">
-        <div class="col-10 offset-1 bg-white rounded shadow-sm">
-          <h3 class="my-3">Academic Papers and Publications</h3>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2016</span>
-                  <span class="badge badge-secondary">Term Paper</span>
-                  <p class="mb-0">Um Estudo sobre Computação Paralela com Aplicação ao Problema dos n-Corpos</p>
-                  <small class="text-muted">Gustavo Leite; Alexandro Baldassin (Supervisor)</small>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-outline-primary btn-sm disabled">PDF</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2018</span>
-                  <span class="badge badge-secondary">Special Studies</span>
-                  <p class="mb-0">Scheduling Threads and Pages on NUMA Systems</p>
-                  <small class="text-muted">Gustavo Leite; Alexandro Baldassin (Supervisor)</small>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-outline-primary btn-sm disabled">PDF</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="badge badge-success">2018</span>
-                  <span class="badge badge-secondary">Qualification</span>
-                  <p class="mb-0">Scheduling Threads and Pages on NUMA Systems</p>
-                  <small class="text-muted">Gustavo Leite; Alexandro Baldassin (Supervisor)</small>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-outline-primary btn-sm disabled">PDF</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <div class="row my-5" id="publications">
+        <h2 class="col-md-3">Publications</h2>
+        <div class="col-md-9 p-4 bg-white rounded shadow-sm">
+	  <ul class="list-unstyled m-0">
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2016</span>
+	        <span class="badge badge-secondary">Term Paper</span>
+	      </p>
+	      <p class="m-0">
+		  Um Estudo sobre Computação Paralela com Aplicação ao Problema dos n-Corpos
+		  <a tabindex="-1" class="disabled badge badge-pill badge-primary" href="pdf/gustavo-tcc.pdf" target="_blank">PDF</a>
+	      <p class="text-muted">
+		<strong>Gustavo Leite</strong>; Alexandro Baldassin (supervisor)
+	      </p>
+	    </li>
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2018</span>
+	        <span class="badge badge-secondary">Special Studies</span>
+	      </p>
+	      <p class="m-0">
+		  Scheduling Threads and Pages on NUMA Systems
+		  <a tabindex="-1" class="disabled badge badge-pill badge-primary" href="pdf/gustavo-estudos.pdf" target="_blank">PDF</a>
+	      </p>
+	      <p class="text-muted">
+		<strong>Gustavo Leite</strong>; Alexandro Baldassin (supervisor)
+	      </p>
+	    </li>
+	    <li>
+	      <p class="m-0">
+	        <span class="badge badge-success">2018</span>
+	        <span class="badge badge-secondary">Qualification</span>
+	      </p>
+	      <p class="m-0">
+		  Scheduling Threads and Pages on NUMA Systems
+		  <a tabindex="-1" class="disabled badge badge-pill badge-primary" href="pdf/gustavo-qualis.pdf" target="_blank">PDF</a>
+	      </p>
+	      <p class="text-muted">
+		<strong>Gustavo Leite</strong>; Alexandro Baldassin (supervisor)
+	      </p>
+	    </li>
+	  </ul>
+	</div>
       </div>
 
       <hr>
 
-      <footer class="clearfix">
-        <p class="float-left">&copy; 2019 Gustavo Leite </p>
-        <small class="text-muted float-right">(Last updated: April 9th 2019)</small>
+      <footer class="clearfix mb-2">
+        <p class="float-left">&copy; 2019 Gustavo Leite</p>
+        <small class="float-right text-muted">Last updated: April 11th 2019</small>
       </footer>
 
-    </div>
+    </main>
 
-    <script src="assets/js/animations.js"></script>
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!--
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
-    <script type="text/javascript">
-      // Load google charts
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      // Draw the chart and set the chart values
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Programming Language', 'Proportion of code'],
-          ['C', 40],
-          ['Python', 20],
-          ['C++', 10],
-          ['Java', 10],
-          ['Javascript', 5],
-        ]);
-
-        // Optional; add a title and set the width and height of the chart
-        var options = {'pieHole':0.4, 'width': 412, 'height':412};
-
-        // Display the chart inside the <div> element with id="piechart"
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-        chart.draw(data, options);
-      }
+    <script>
+      $(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+      })
     </script>
-    -->
 
   </body>
 </html>
