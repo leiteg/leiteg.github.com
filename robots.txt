@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://gustavoleite.me/sitemap.xml

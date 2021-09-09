@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://gustavoleite.me/</loc>
+    <lastmod>2021-09-08T20:48:11-03:00</lastmod>
+  </url><url>
+    <loc>http://gustavoleite.me/tags/meta/</loc>
+    <lastmod>2021-09-08T20:48:11-03:00</lastmod>
+  </url><url>
+    <loc>http://gustavoleite.me/posts/</loc>
+    <lastmod>2021-09-08T20:48:11-03:00</lastmod>
+  </url><url>
+    <loc>http://gustavoleite.me/tags/</loc>
+    <lastmod>2021-09-08T20:48:11-03:00</lastmod>
+  </url><url>
+    <loc>http://gustavoleite.me/posts/intro/</loc>
+    <lastmod>2021-09-08T20:48:11-03:00</lastmod>
+  </url><url>
+    <loc>http://gustavoleite.me/about/</loc>
+  </url><url>
+    <loc>http://gustavoleite.me/categories/</loc>
+  </url><url>
+    <loc>http://gustavoleite.me/publications/</loc>
+  </url>
+</urlset>
